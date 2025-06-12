@@ -8,6 +8,7 @@
     <canvas id="blue-today"></canvas>
     <canvas id="green-today"></canvas>
     <canvas id="pink-today"></canvas>
+    <canvas id="orange-today"></canvas>
     <br />
     <h2>QRCode for Yesterday</h2>
     Game may complain "old" or "fishy" for timing issue, so I added more codes for you to try here
@@ -15,6 +16,7 @@
     <canvas id="blue-yesterday"></canvas>
     <canvas id="green-yesterday"></canvas>
     <canvas id="pink-yesterday"></canvas>
+    <canvas id="orange-yesterday"></canvas>
     <br />
     <h2>QRCode for Tomorrow</h2>
     and here.
@@ -22,10 +24,11 @@
     <canvas id="blue-tomorrow"></canvas>
     <canvas id="green-tomorrow"></canvas>
     <canvas id="pink-tomorrow"></canvas>
+    <canvas id="orange-tomorrow"></canvas>
     <script>
-        let p1 = ["💠", "❇️", "💟"];
-        let color = ["blue", "green", "pink"];
-        let fgColor = ["#586fd9", "#5BCAAD", "#C54984"];
+        let p1 = ["💠", "❇️", "💟", "photogenic"];
+        let color = ["blue", "green", "pink", "orange"];
+        let fgColor = ["#586fd9", "#5BCAAD", "#C54984", "#EF8B39"];
         let dateOffset = ["yesterday", "today", "tomorrow"];
         let julianDayNumber = Math.floor(2440588 + Date.now() / 86400000);
 
